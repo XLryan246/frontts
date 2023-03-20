@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FormCadCom from './components/FormCadCom';
+import FormCadCom2 from './components/FormCadCom2';
+import BotaoAvancar from './components/BotaoAvancar';
+import BotaoSN from './components/BotaoSN';
+import LoginADM from './components/pages/loginADM';
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* <FormCadCom /> */}
+      {/* <FormCadCom2 /> */}
+      {/* <BotaoAvancar /> */}
+      {/* <BotaoSN /> */}
+      <LoginADM />
+    
     </div>
+    </>
   );
 }
 
